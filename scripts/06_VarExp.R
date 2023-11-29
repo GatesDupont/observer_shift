@@ -16,7 +16,7 @@ slice <- dplyr::slice
 
 # ---- Load data ----
 
-db_to_load <- "Data/PFW/Downloaded PFW data/2023-08-25_03-22-26-PM.sqlite"
+db_to_load <- "Data/PFW/Downloaded PFW data/2023-08-21_03-17-30-PM.sqlite"
 conn <- dbConnect(SQLite(), db_to_load)
 query <- paste0("SELECT * FROM pfw_final WHERE city = '", city, "'")
 pfw_cleaned <- dbGetQuery(conn, query) %>%
