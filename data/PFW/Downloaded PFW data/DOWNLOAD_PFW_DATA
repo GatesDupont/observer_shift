@@ -1,0 +1,3 @@
+The Project FeederWatch website makes their data freely available on their website as large .csv files, and you can download these files at this link: https://feederwatch.org/explore/raw-dataset-requests/
+
+Once downloaded, you can add those files to this directory to facilitate analysis.
